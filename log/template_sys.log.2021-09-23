@@ -1,0 +1,6 @@
+INFO 2021-09-23 13:23:36 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 10332 20516 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-09-23 13:24:11 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 20212 15076 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-09-23 13:24:30 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 14384 23612 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-09-23 13:24:45 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 20708 12720 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-09-23 13:25:13 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 15392 17868 Watching for file changes with StatReloader
+INFO 2021-09-23 13:25:15 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 15392 17868 Found credentials in shared credentials file: ~/.aws/credentials

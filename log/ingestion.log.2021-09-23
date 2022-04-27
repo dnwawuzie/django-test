@@ -1,0 +1,5 @@
+INFO 2021-09-23 13:24:45 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py annotation_example 57 views 20708 12720 {'message': '"Hello world with GET!"'}
+INFO 2021-09-23 13:24:45 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py annotation_example 57 views 20708 12720 {'message': '"Hello world with POST!"'}
+INFO 2021-09-23 13:26:36 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\functions\ingestion.py run 34 ingestion 15392 7016 Downloading Item: fo55393e-df87-4ade-aba8-7e348c623aa7
+INFO 2021-09-23 13:26:41 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\functions\ingestion.py run 36 ingestion 15392 7016 Uploading Item: fo55393e-df87-4ade-aba8-7e348c623aa7
+INFO 2021-09-23 13:26:41 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\functions\ingestion.py run 38 ingestion 15392 7016 Deleting Item: fo55393e-df87-4ade-aba8-7e348c623aa7

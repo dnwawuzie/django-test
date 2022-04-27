@@ -1,0 +1,19 @@
+INFO 2022-02-08 00:58:32 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 13468 14012 {'message': '"Hello world with GET!"'}
+ERROR 2022-02-08 00:58:34 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 275 views 13468 14012 ValueError ('Missing one or more parameters!',)
+ERROR 2022-02-08 00:58:35 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 332 views 13468 14012 Pipeline ID does not exist!
+WARNING 2022-02-08 00:58:35 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 13468 14012 RuntimeError ('No active exception to reraise',)
+INFO 2022-02-08 00:58:36 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\functions\ingestion.py ingest 242 ingestion 13468 16416 Item ID retrieved: fi03eb57-7952-1c10-caac-d9e7511a9128
+INFO 2022-02-08 00:58:36 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\functions\ingestion.py ingest 243 ingestion 13468 16416 Downloading Item: fi03eb57-7952-1c10-caac-d9e7511a9128
+INFO 2022-02-08 00:58:37 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 13468 14012 {'message': '"Hello world with POST!"'}
+INFO 2022-02-08 00:58:38 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\functions\ingestion.py ingest 245 ingestion 13468 16416 Uploading Item: fi03eb57-7952-1c10-caac-d9e7511a9128 to s3://d.hub-test/Data/ethan/test/foo/foo.csv
+INFO 2022-02-08 01:01:07 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\functions\ingestion.py ingest 242 ingestion 21052 11168 Item ID retrieved: fi03eb57-7952-1c10-caac-d9e7511a9128
+INFO 2022-02-08 01:01:07 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\functions\ingestion.py ingest 243 ingestion 21052 11168 Downloading Item: fi03eb57-7952-1c10-caac-d9e7511a9128
+INFO 2022-02-08 01:01:10 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\functions\ingestion.py ingest 245 ingestion 21052 11168 Uploading Item: fi03eb57-7952-1c10-caac-d9e7511a9128 to s3://d.hub-test/Data/ethan/test/foo/foo.csv
+ERROR 2022-02-08 01:21:27 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 325 views 24256 22228 Pipeline ID is not provided.
+WARNING 2022-02-08 01:21:27 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 24256 22228 RuntimeError ('No active exception to reraise',)
+ERROR 2022-02-08 01:36:16 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 324 views 24220 24292 Pipeline ID is not provided.
+WARNING 2022-02-08 01:36:16 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 345 views 24220 24292 RuntimeError ('No active exception to reraise',)
+ERROR 2022-02-08 14:09:06 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 325 views 24444 22756 Pipeline ID is not provided.
+WARNING 2022-02-08 14:09:06 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 24444 22756 RuntimeError ('No active exception to reraise',)
+ERROR 2022-02-08 14:10:06 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 325 views 24444 22756 Pipeline ID is not provided.
+WARNING 2022-02-08 14:10:06 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 24444 22756 RuntimeError ('No active exception to reraise',)

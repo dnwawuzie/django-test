@@ -1,0 +1,311 @@
+INFO 2021-10-12 15:44:22 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 6520 17092 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-12 15:44:51 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 5708 15892 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-12 15:45:09 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 10080 15184 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-12 15:45:20 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 13764 15440 Watching for file changes with StatReloader
+INFO 2021-10-12 15:45:23 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 13764 15440 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-12 15:46:40 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 13572 5576 Watching for file changes with StatReloader
+INFO 2021-10-12 15:46:41 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 13572 5576 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-12 15:47:00 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 13572 5576 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-12 15:47:03 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 16416 16880 Watching for file changes with StatReloader
+INFO 2021-10-12 15:47:05 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 16416 16880 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-12 15:47:52 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 16416 15744 Internal Server Error: /api/v1/component/data-request-view
+INFO 2021-10-12 16:02:41 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 16416 16880 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\functions\ingestion.py changed, reloading.
+INFO 2021-10-12 16:02:44 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 2444 14940 Watching for file changes with StatReloader
+INFO 2021-10-12 16:02:46 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 2444 14940 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-12 16:08:44 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 2444 14940 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\functions\ingestion.py changed, reloading.
+INFO 2021-10-12 16:08:46 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 16860 12068 Watching for file changes with StatReloader
+INFO 2021-10-12 16:08:49 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 16860 12068 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-12 16:10:03 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 16860 12068 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\functions\ingestion.py changed, reloading.
+INFO 2021-10-12 16:10:05 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 13692 16848 Watching for file changes with StatReloader
+INFO 2021-10-12 16:10:06 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 13692 16848 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-12 16:10:15 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 13692 11092 Internal Server Error: /api/v1/component/data-request-view
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py", line 147, in get
+    status = ingestion.get_crawler_status()
+TypeError: get_crawler_status() missing 1 required positional argument: 'crawler_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py", line 154, in get
+    status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+UnboundLocalError: local variable 'status' referenced before assignment
+INFO 2021-10-12 16:11:14 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 13692 16848 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-12 16:11:15 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 9652 13560 Watching for file changes with StatReloader
+INFO 2021-10-12 16:11:17 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 9652 13560 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-12 16:11:41 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 9652 13628 Internal Server Error: /api/v1/component/data-request-view
+INFO 2021-10-12 16:13:20 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 9652 13560 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-12 16:13:22 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 16000 2000 Watching for file changes with StatReloader
+INFO 2021-10-12 16:13:23 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 16000 2000 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-12 16:41:51 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 16000 2000 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-12 16:41:54 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 16352 7552 Watching for file changes with StatReloader
+INFO 2021-10-12 16:41:57 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 16352 7552 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-12 16:55:52 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 16352 7552 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\functions\ingestion.py changed, reloading.
+INFO 2021-10-12 16:55:55 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 6672 2460 Watching for file changes with StatReloader
+INFO 2021-10-12 16:55:57 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 6672 2460 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-12 16:56:02 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 6672 10968 Internal Server Error: /api/v1/component/data-request-view
+ERROR 2021-10-13 10:49:16 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 6672 22072 Internal Server Error: /api/v1/component/data-request-view
+INFO 2021-10-13 11:09:42 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 6672 2460 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-13 11:09:45 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 20648 21708 Watching for file changes with StatReloader
+INFO 2021-10-13 11:09:48 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 20648 21708 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-13 14:35:53 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 20648 21708 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-13 14:35:55 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 9772 7528 Watching for file changes with StatReloader
+INFO 2021-10-13 14:35:58 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 9772 7528 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-13 14:36:25 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 9772 7528 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-13 14:36:27 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 20856 11092 Watching for file changes with StatReloader
+INFO 2021-10-13 14:36:29 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 20856 11092 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-13 14:47:50 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 20856 11092 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-13 14:47:52 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 15592 4996 Watching for file changes with StatReloader
+INFO 2021-10-13 14:47:54 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 15592 4996 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-13 15:07:23 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 15592 4996 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-13 15:07:26 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 13576 18888 Watching for file changes with StatReloader
+INFO 2021-10-13 15:07:28 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 13576 18888 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-13 15:09:46 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 13576 18888 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-13 15:09:47 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 16964 7640 Watching for file changes with StatReloader
+INFO 2021-10-13 15:09:49 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 16964 7640 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-14 11:25:12 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 16964 7640 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-14 11:25:14 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 22400 21316 Watching for file changes with StatReloader
+INFO 2021-10-14 11:25:17 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 22400 21316 Found credentials in shared credentials file: ~/.aws/credentials
+WARNING 2021-10-14 11:25:20 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py call_view_method 44 base 22400 16000 view's PipelineBulkLoadTestModel raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'PipelineBulkLoadTestModel' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+WARNING 2021-10-14 11:25:20 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py call_view_method 44 base 22400 16000 view's PipelineBulkLoadTestModel raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'PipelineBulkLoadTestModel' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+WARNING 2021-10-14 11:31:36 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py call_view_method 44 base 22400 20964 view's PipelineBulkLoadTestModel raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'PipelineBulkLoadTestModel' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+WARNING 2021-10-14 11:31:36 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py call_view_method 44 base 22400 20964 view's PipelineBulkLoadTestModel raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'PipelineBulkLoadTestModel' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+WARNING 2021-10-14 11:33:45 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py call_view_method 44 base 22400 17932 view's PipelineBulkLoadTestModel raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'PipelineBulkLoadTestModel' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+WARNING 2021-10-14 11:33:45 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py call_view_method 44 base 22400 17932 view's PipelineBulkLoadTestModel raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'PipelineBulkLoadTestModel' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+INFO 2021-10-14 11:33:46 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 22400 21316 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-14 11:33:48 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 1596 20616 Watching for file changes with StatReloader
+INFO 2021-10-14 11:33:50 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 1596 20616 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-14 13:07:04 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 1596 22092 Internal Server Error: /api/v1/component/test-model-list-view
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 702, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 630, in get_filter_form
+    queryset = view.get_queryset()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 63, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'TestModelList' should either include a `queryset` attribute, or override the `get_queryset()` method.
+WARNING 2021-10-14 13:07:04 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 1596 22092 Not Found: /favicon.ico
+ERROR 2021-10-14 13:08:14 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 1596 22092 Internal Server Error: /api/v1/component/test-model-list-view
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 702, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 630, in get_filter_form
+    queryset = view.get_queryset()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 63, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'TestModelList' should either include a `queryset` attribute, or override the `get_queryset()` method.
+ERROR 2021-10-14 13:23:51 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 1596 21272 Internal Server Error: /api/v1/component/data-request-view
+WARNING 2021-10-14 13:25:30 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 1596 21272 Not Found: /api/v1/component/data-list-view
+ERROR 2021-10-14 13:26:18 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 1596 21272 Internal Server Error: /api/v1/component/test-model-list-view
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 702, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 630, in get_filter_form
+    queryset = view.get_queryset()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 63, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'TestModelList' should either include a `queryset` attribute, or override the `get_queryset()` method.
+INFO 2021-10-14 13:57:46 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 1596 20616 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-14 13:57:49 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 1372 22216 Watching for file changes with StatReloader
+INFO 2021-10-14 13:57:52 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 1372 22216 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-14 14:40:32 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 1372 22216 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-14 14:40:34 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 21288 9328 Watching for file changes with StatReloader
+INFO 2021-10-14 14:40:36 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 21288 9328 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-14 16:21:00 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 21288 9328 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\model\models.py changed, reloading.
+INFO 2021-10-14 16:21:04 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 15224 18216 Watching for file changes with StatReloader
+INFO 2021-10-14 16:21:07 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 15224 18216 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-14 16:33:55 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 15224 18216 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-14 16:33:57 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 15676 3936 Watching for file changes with StatReloader
+INFO 2021-10-14 16:34:00 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 15676 3936 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-14 16:44:09 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 15676 3936 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-14 16:44:11 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 10192 15048 Watching for file changes with StatReloader
+INFO 2021-10-14 16:44:13 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 10192 15048 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-14 16:44:38 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 10192 15048 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\functions\auth\auth.py changed, reloading.
+INFO 2021-10-14 16:44:40 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 19176 18428 Watching for file changes with StatReloader
+INFO 2021-10-14 16:44:43 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 19176 18428 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 11:00:10 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 19176 18428 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\model\models.py changed, reloading.
+INFO 2021-10-15 11:00:16 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 19976 18372 Watching for file changes with StatReloader
+INFO 2021-10-15 11:00:23 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 19976 18372 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 11:00:40 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 19976 18372 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\model\models.py changed, reloading.
+INFO 2021-10-15 11:00:45 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 4044 15280 Watching for file changes with StatReloader
+INFO 2021-10-15 11:00:49 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 4044 15280 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 13:27:16 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 4044 15280 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\model\models.py changed, reloading.
+INFO 2021-10-15 13:27:19 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 132 20568 Watching for file changes with StatReloader
+INFO 2021-10-15 13:27:23 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 132 20568 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 14:58:41 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 132 20568 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\model\models.py changed, reloading.
+INFO 2021-10-15 14:58:44 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 18056 13964 Watching for file changes with StatReloader
+INFO 2021-10-15 14:58:49 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 18056 13964 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 15:04:04 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 18056 11620 Internal Server Error: /api/v1/component/pipeline-state-view
+INFO 2021-10-15 15:05:41 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 18056 13964 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 15:05:43 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 21252 16064 Watching for file changes with StatReloader
+INFO 2021-10-15 15:05:45 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 21252 16064 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 15:05:56 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 21252 17196 Internal Server Error: /api/v1/component/pipeline-state-view
+INFO 2021-10-15 15:11:55 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 21252 16064 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 15:11:57 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 20836 2872 Watching for file changes with StatReloader
+INFO 2021-10-15 15:12:27 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 16572 18280 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 15:12:51 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 19544 13776 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 15:13:03 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 19884 12260 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 15:13:21 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 524 22256 Watching for file changes with StatReloader
+INFO 2021-10-15 15:13:23 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 524 22256 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 15:14:26 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 524 15236 Internal Server Error: /api/v1/component/pipeline-state-view
+INFO 2021-10-15 15:17:50 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 11976 18140 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 15:19:42 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 21492 15452 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 15:24:50 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 17624 17032 Watching for file changes with StatReloader
+INFO 2021-10-15 15:24:52 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 17624 17032 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 15:24:59 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 17624 13056 Internal Server Error: /api/v1/component/pipeline-state-view
+INFO 2021-10-15 15:33:28 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 17624 17032 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\model\models.py changed, reloading.
+INFO 2021-10-15 15:33:30 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 13764 2108 Watching for file changes with StatReloader
+INFO 2021-10-15 15:33:32 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 13764 2108 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 15:33:45 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 13764 21472 Internal Server Error: /api/v1/component/test-model-list-view
+Traceback (most recent call last):
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 702, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\renderers.py", line 630, in get_filter_form
+    queryset = view.get_queryset()
+  File "C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\rest_framework\generics.py", line 63, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'TestModelList' should either include a `queryset` attribute, or override the `get_queryset()` method.
+INFO 2021-10-15 15:43:20 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 13764 2108 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 15:43:21 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 6404 84 Watching for file changes with StatReloader
+INFO 2021-10-15 15:43:23 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 6404 84 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 15:51:45 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 6404 84 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 15:51:47 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 3212 9592 Watching for file changes with StatReloader
+INFO 2021-10-15 15:51:49 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 3212 9592 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 16:16:02 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 3212 9592 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\url\urls.py changed, reloading.
+INFO 2021-10-15 16:16:06 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 10188 20476 Watching for file changes with StatReloader
+INFO 2021-10-15 16:16:08 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 10188 20476 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 16:41:30 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 10188 20476 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 16:41:32 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 3548 19064 Watching for file changes with StatReloader
+INFO 2021-10-15 16:45:27 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 3548 19064 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 16:45:29 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 18040 15156 Watching for file changes with StatReloader
+INFO 2021-10-15 16:45:32 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 18040 15156 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 16:47:32 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 18040 15156 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 16:47:34 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 18964 20924 Watching for file changes with StatReloader
+INFO 2021-10-15 16:47:37 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 18964 20924 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 16:48:37 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 18964 22256 Internal Server Error: /api/v1/component/pipeline-state-view
+INFO 2021-10-15 16:51:12 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 18964 20924 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 16:51:13 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 17704 18112 Watching for file changes with StatReloader
+INFO 2021-10-15 16:51:16 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 17704 18112 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 16:51:21 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 17704 19468 Internal Server Error: /api/v1/component/pipeline-state-view
+INFO 2021-10-15 16:52:24 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 17704 18112 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 16:52:26 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 15512 19976 Watching for file changes with StatReloader
+INFO 2021-10-15 16:52:29 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 15512 19976 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 16:52:31 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 15512 18384 Internal Server Error: /api/v1/component/pipeline-state-view
+INFO 2021-10-15 16:53:07 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 15512 19976 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 16:53:10 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 7208 2124 Watching for file changes with StatReloader
+INFO 2021-10-15 16:53:12 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 7208 2124 Found credentials in shared credentials file: ~/.aws/credentials
+INFO 2021-10-15 16:53:29 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 7208 2124 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 16:53:31 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 20232 14904 Watching for file changes with StatReloader
+INFO 2021-10-15 16:53:33 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 20232 14904 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 16:54:01 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 20232 2556 Internal Server Error: /api/v1/component/pipeline-state-view
+INFO 2021-10-15 16:54:41 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 20232 14904 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 16:54:43 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 16768 18596 Watching for file changes with StatReloader
+INFO 2021-10-15 16:54:45 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 16768 18596 Found credentials in shared credentials file: ~/.aws/credentials
+ERROR 2021-10-15 16:54:52 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\log.py log_response 224 log 16768 16968 Internal Server Error: /api/v1/component/pipeline-state-view
+INFO 2021-10-15 16:56:52 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py trigger_reload 251 autoreload 16768 18596 C:\Users\ethzhu\PycharmProjects\DjangoTemplate-master\DjangoTemplate-master\templateProject\webapp\component\view\views.py changed, reloading.
+INFO 2021-10-15 16:56:54 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\django\utils\autoreload.py run_with_reloader 637 autoreload 11024 10192 Watching for file changes with StatReloader
+INFO 2021-10-15 16:56:57 C:\Users\ethzhu\PycharmProjects\Environments\django_env\lib\site-packages\botocore\credentials.py load 1224 credentials 11024 10192 Found credentials in shared credentials file: ~/.aws/credentials

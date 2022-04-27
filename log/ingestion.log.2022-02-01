@@ -1,0 +1,55 @@
+INFO 2022-01-31 16:42:20 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 61 views 12460 19352 {'message': '"Hello world with GET!"'}
+ERROR 2022-01-31 16:42:20 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 274 views 12460 19352 ValueError ('Missing one or more parameters!',)
+ERROR 2022-01-31 16:42:20 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 278 views 12460 19352 NoRegionError ('You must specify a region.',)
+WARNING 2022-01-31 16:42:20 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 345 views 12460 19352 NoRegionError ('You must specify a region.',)
+WARNING 2022-01-31 16:42:20 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 345 views 12460 19352 NoRegionError ('You must specify a region.',)
+INFO 2022-01-31 16:42:20 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 61 views 12460 19352 {'message': '"Hello world with POST!"'}
+ERROR 2022-01-31 16:58:56 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 278 views 17524 10560 NoRegionError ('You must specify a region.',)
+INFO 2022-02-01 00:10:36 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 20488 19796 {'message': '"Hello world with GET!"'}
+ERROR 2022-02-01 00:10:36 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 275 views 20488 19796 ValueError ('Missing one or more parameters!',)
+ERROR 2022-02-01 00:10:36 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 279 views 20488 19796 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 00:10:36 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 20488 19796 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 00:10:36 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 20488 19796 NoRegionError ('You must specify a region.',)
+INFO 2022-02-01 00:10:36 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 20488 19796 {'message': '"Hello world with POST!"'}
+INFO 2022-02-01 00:13:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 13480 3716 {'message': '"Hello world with GET!"'}
+ERROR 2022-02-01 00:13:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 275 views 13480 3716 ValueError ('Missing one or more parameters!',)
+ERROR 2022-02-01 00:13:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 279 views 13480 3716 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 00:13:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 13480 3716 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 00:13:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 13480 3716 NoRegionError ('You must specify a region.',)
+INFO 2022-02-01 00:13:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 13480 3716 {'message': '"Hello world with POST!"'}
+INFO 2022-02-01 00:20:44 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 19652 20704 {'message': '"Hello world with GET!"'}
+ERROR 2022-02-01 00:20:44 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 275 views 19652 20704 ValueError ('Missing one or more parameters!',)
+ERROR 2022-02-01 00:20:44 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 279 views 19652 20704 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 00:20:45 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 19652 20704 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 00:20:45 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 19652 20704 NoRegionError ('You must specify a region.',)
+INFO 2022-02-01 00:20:45 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 19652 20704 {'message': '"Hello world with POST!"'}
+INFO 2022-02-01 00:24:17 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 15168 20164 {'message': '"Hello world with GET!"'}
+ERROR 2022-02-01 00:24:17 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 275 views 15168 20164 ValueError ('Missing one or more parameters!',)
+ERROR 2022-02-01 00:24:17 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 279 views 15168 20164 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 00:24:17 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 15168 20164 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 00:24:17 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 15168 20164 NoRegionError ('You must specify a region.',)
+INFO 2022-02-01 00:24:18 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 15168 20164 {'message': '"Hello world with POST!"'}
+INFO 2022-02-01 09:52:40 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 22480 10280 {'message': '"Hello world with GET!"'}
+ERROR 2022-02-01 09:52:40 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 275 views 22480 10280 ValueError ('Missing one or more parameters!',)
+ERROR 2022-02-01 09:52:40 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 279 views 22480 10280 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 09:52:40 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 22480 10280 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 09:52:40 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 22480 10280 NoRegionError ('You must specify a region.',)
+INFO 2022-02-01 09:52:40 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 22480 10280 {'message': '"Hello world with POST!"'}
+INFO 2022-02-01 09:53:54 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 20936 22164 {'message': '"Hello world with GET!"'}
+ERROR 2022-02-01 09:53:54 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 275 views 20936 22164 ValueError ('Missing one or more parameters!',)
+ERROR 2022-02-01 09:53:55 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 279 views 20936 22164 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 09:53:55 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 20936 22164 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 09:53:55 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 20936 22164 NoRegionError ('You must specify a region.',)
+INFO 2022-02-01 09:53:55 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 20936 22164 {'message': '"Hello world with POST!"'}
+INFO 2022-02-01 09:55:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 11444 22980 {'message': '"Hello world with GET!"'}
+ERROR 2022-02-01 09:55:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 275 views 11444 22980 ValueError ('Missing one or more parameters!',)
+ERROR 2022-02-01 09:55:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 279 views 11444 22980 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 09:55:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 11444 22980 NoRegionError ('You must specify a region.',)
+WARNING 2022-02-01 09:55:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 11444 22980 NoRegionError ('You must specify a region.',)
+INFO 2022-02-01 09:55:30 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 11444 22980 {'message': '"Hello world with POST!"'}
+INFO 2022-02-01 10:09:26 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 21896 11980 {'message': '"Hello world with GET!"'}
+ERROR 2022-02-01 10:09:26 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 275 views 21896 11980 ValueError ('Missing one or more parameters!',)
+ERROR 2022-02-01 10:09:27 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py post 279 views 21896 11980 NoCredentialsError ('Unable to locate credentials',)
+WARNING 2022-02-01 10:09:27 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 21896 11980 NoCredentialsError ('Unable to locate credentials',)
+WARNING 2022-02-01 10:09:27 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py get 346 views 21896 11980 NoCredentialsError ('Unable to locate credentials',)
+INFO 2022-02-01 10:09:27 C:\Users\pacloutier\PycharmProjects\CortexAI_Django\CortexAI\ingestionAPI\component\view\views.py annotation_example 62 views 21896 11980 {'message': '"Hello world with POST!"'}
